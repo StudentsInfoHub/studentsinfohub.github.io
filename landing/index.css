@@ -3,6 +3,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 1920px 1080px;
+  max-width: 100%;
+  overflow-x: h idden;
 }
 
 .footer {
