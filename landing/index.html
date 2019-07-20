@@ -6,22 +6,22 @@
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<!-- Below style contains styling for social media buttons. If class definitions are moved to .css file it does not work properly. -->
 <style>
 .fa {
-  padding: 22px;
+  padding: 25px;
   font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+  width: 30px;
   margin: 5px 2px;
+  border-radius: 50%;
 }
 
 .fa:hover {
     opacity: 0.7;
 }
 
-.fa-facebook {
-  background: #3B5998;
+.fa-instagram {
+  background: #CB007D;
   color: white;
 }
 
@@ -29,6 +29,17 @@
   background: #55ACEE;
   color: white;
 }
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
 </style>
 
 
@@ -37,21 +48,43 @@
 
   <div class="">
 
-    <table>
+    <table class="index_center">
+      <tr>
+        <th class="welcome">Welcome to Students' Info Hub!</th>
+      </tr>
+      <tr>
+        <td class="introtext">
+          Students' Info Hub is your one-stop website for information in and around Drexel University's campus.
+          It aims to provide details about restaurants in University City, Drexel clubs and organizations, as well as information about
+          events taking place in and around Philadelphia, PA.
+        </td>
+        <td><a href="#"><img src="" alt=""></a></td>
+      </tr>
+      <tr>
+        <td class="introtext">
+          I hope you find this website useful. Feel free to reach out to me personally at studentsinfohub@gmail.com with any questions,
+          inquiries, or suggestions. Also check us out using the social media links below. Enjoy!
+        </td>
+      </tr>
+      <tr>
+        <td class="introtext">
+          Sincerely,<br>
+          <b>The Students' Info Hub Team</b>
+        </td>
+      </tr>
     </table>
 
   </div>
 
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
-<a href="#" class="fa fa-facebook"></a>
-
 
 <div class="footer">
-  <a href="#" class="fa fa-facebook"></a>
   <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-reddit"></a>
+<!-- Add spotify logo here (eventually).
+  <a href="#" class="spotifyclass"><img src="spotifyicon.png" alt=""></a>
+-->
 </div>
 
 </body>
